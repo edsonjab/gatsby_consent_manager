@@ -1,0 +1,46 @@
+{
+  "name": "gatsby-segment-consent-manager",
+  "private": true,
+  "description": "Testing Segments Consent Managers ",
+  "version": "0.1.0",
+  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "dependencies": {
+    "@segment/consent-manager": "^5.6.0",
+    "@segment/top-domain": "^3.0.1",
+    "gatsby": "^2.6.0",
+    "gatsby-image": "^2.1.0",
+    "gatsby-plugin-manifest": "^2.1.1",
+    "gatsby-plugin-offline": "^2.1.1",
+    "gatsby-plugin-react-helmet": "^3.0.12",
+    "gatsby-plugin-sharp": "^2.0.37",
+    "gatsby-source-filesystem": "^2.0.37",
+    "gatsby-transformer-sharp": "^2.1.19",
+    "isomorphic-fetch": "^3.0.0",
+    "js-cookie": "^2.2.0",
+    "nanoid": "^3.3.2",
+    "prop-types": "^15.7.2",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "react-helmet": "^5.2.1"
+  },
+  "devDependencies": {
+    "prettier": "^1.17.1"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write src/**/*.{js,jsx}",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  }
+}
